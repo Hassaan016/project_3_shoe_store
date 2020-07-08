@@ -23,7 +23,7 @@ function App() {
         </Route>
 
         <Route path="shoes" element={<Shoes/>}> {/* The parent shoes route i.e /shoes*/}
-          <Route path="/" element={<ShoeIndex strShoeLinkType=""/>}></Route> {/* Show <ShoeIndex/> when we are on the parent shoes route i.e /shoes*/}
+          <Route path="/" element={<ShoeIndex strShoeRouteLink=""/>}></Route> {/* Show <ShoeIndex/> when we are on the parent shoes route i.e /shoes*/}
           <Route path=":productID" element={<ShoeDetails />}></Route>  {/*/shoes/any_product_item */}
         </Route> 
 
