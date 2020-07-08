@@ -1,0 +1,24 @@
+.ul-container
+{
+ display: flex;
+ flex-direction: row;
+ margin:auto;
+}
+
+.li-container
+{
+ padding: 10px;
+}
+
+.paper-container
+{
+ text-align: center;
+ background-Color:red;
+ margin: auto;
+}
+
+.img-element
+{
+ height: 300px;
+ width: 300px;
+}
