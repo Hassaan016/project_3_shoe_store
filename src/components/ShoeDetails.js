@@ -2,7 +2,7 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 
 
-export const ProductDetails = () => {
+export const ShoeDetails = () => {
 
   const shoes = {
     "air-jordan-3-valor-blue": {

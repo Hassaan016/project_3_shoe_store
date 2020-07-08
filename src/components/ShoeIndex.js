@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
-export const ShoeIndex = () => {
+export const ShoeIndex = ({ strShoeRouteLink }) => {
     const classes = useStyles();
 
     const shoes = {
@@ -47,7 +47,7 @@ export const ShoeIndex = () => {
                 <Paper className="paper-container" elevation={3} >
                     {/* <li className="li-container" key={productID}>  */}
 
-                    <Link to={productID}> {/*Any element within <Link>__Elements__</Link> becomes linkable*/}
+                    <Link to={"".concat(strShoeRouteLink, productID)}> {/*Any element within <Link>__Elements__</Link> becomes linkable*/}
                         <h4>{name}</h4>
                         {<img className="img-element" src={img} alt={name}></img>}
                     </Link>
