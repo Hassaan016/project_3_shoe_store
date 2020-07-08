@@ -41,7 +41,7 @@ export const ShoeIndex = ({ strShoeRouteLink }) => {
 
     return (
         <div className={classes.root}>
-            <h3>Shoes</h3>
+           
             {/* <ul className="ul-container">  */}
             {Object.entries(shoes).map(([productID, { name, img }]) =>
                 <Paper className="paper-container" elevation={3} >
